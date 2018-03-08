@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.company.project.dao.TSearchShopMapper">
+  <resultMap id="BaseResultMap" type="com.company.project.model.TSearchShop">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="shopid" jdbcType="BIGINT" property="shopid" />
+    <result column="shopuserid" jdbcType="BIGINT" property="shopuserid" />
+    <result column="shopurl" jdbcType="VARCHAR" property="shopurl" />
+    <result column="zhangguiid" jdbcType="BIGINT" property="zhangguiid" />
+    <result column="zhangguiname" jdbcType="VARCHAR" property="zhangguiname" />
+    <result column="zhangguiurl" jdbcType="VARCHAR" property="zhangguiurl" />
+    <result column="location" jdbcType="VARCHAR" property="location" />
+  </resultMap>
+</mapper>

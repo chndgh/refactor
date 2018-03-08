@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.company.project.dao.TFrontCategoryMapper">
+  <resultMap id="BaseResultMap" type="com.company.project.model.TFrontCategory">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="Id" jdbcType="INTEGER" property="id" />
+    <result column="cateid" jdbcType="VARCHAR" property="cateid" />
+    <result column="catename" jdbcType="VARCHAR" property="catename" />
+    <result column="level" jdbcType="INTEGER" property="level" />
+    <result column="parentcateid" jdbcType="VARCHAR" property="parentcateid" />
+    <result column="updatetime" jdbcType="INTEGER" property="updatetime" />
+  </resultMap>
+</mapper>

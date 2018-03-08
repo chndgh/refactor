@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.company.project.dao.TProxyVerifyMapper">
+  <resultMap id="BaseResultMap" type="com.company.project.model.TProxyVerify">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="Id" jdbcType="INTEGER" property="id" />
+    <result column="ip" jdbcType="VARCHAR" property="ip" />
+    <result column="port" jdbcType="INTEGER" property="port" />
+    <result column="type" jdbcType="VARCHAR" property="type" />
+    <result column="pass" jdbcType="INTEGER" property="pass" />
+    <result column="verify_time" jdbcType="VARCHAR" property="verifyTime" />
+  </resultMap>
+</mapper>

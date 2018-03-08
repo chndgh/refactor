@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.company.project.dao.TSearchMapper">
+  <resultMap id="BaseResultMap" type="com.company.project.model.TSearch">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="portraitURL" jdbcType="VARCHAR" property="portraiturl" />
+    <result column="title" jdbcType="VARCHAR" property="title" />
+    <result column="price" jdbcType="VARCHAR" property="price" />
+    <result column="owner" jdbcType="VARCHAR" property="owner" />
+    <result column="deliverFromProvince" jdbcType="VARCHAR" property="deliverfromprovince" />
+    <result column="deliverFromCity" jdbcType="VARCHAR" property="deliverfromcity" />
+    <result column="customerCount" jdbcType="INTEGER" property="customercount" />
+    <result column="commentCount" jdbcType="INTEGER" property="commentcount" />
+    <result column="ownerType" jdbcType="INTEGER" property="ownertype" />
+    <result column="duliang" jdbcType="VARCHAR" property="duliang" />
+    <result column="goodsLink" jdbcType="VARCHAR" property="goodslink" />
+    <result column="goodsId" jdbcType="VARCHAR" property="goodsid" />
+    <result column="categoryID" jdbcType="VARCHAR" property="categoryid" />
+    <result column="sellerCredit" jdbcType="VARCHAR" property="sellercredit" />
+    <result column="totalRate" jdbcType="VARCHAR" property="totalrate" />
+    <result column="baseSearch" jdbcType="INTEGER" property="basesearch" />
+    <result column="BackCategoryId" jdbcType="VARCHAR" property="backcategoryid" />
+  </resultMap>
+</mapper>
