@@ -2,7 +2,6 @@ package com.company.project.service.proxy;
 
 
 
-import com.company.project.client.AbstractAppMaster;
 import com.company.project.client.quartz.taobao.cookie.CookieHelper;
 import com.company.project.client.util.UumaiTime;
 import com.company.project.dao.TProxyMapper;
@@ -10,6 +9,7 @@ import com.company.project.dao.TProxyVerifyMapper;
 import com.company.project.model.TProxy;
 import com.company.project.server.download.CrawlerProxy;
 import com.company.project.server.quartz.QuartzCrawlerTasker;
+import com.company.project.service.AbstractAppMaster;
 import com.company.project.service.impl.TSystemlogServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -18,7 +18,7 @@ import java.util.List;
 
 
 @Service
-public class CheckProxyValidateTasker extends AbstractAppMaster { // QuartzLocalAppMaster{ //AbstractAppMaster {
+public class CheckProxyValidateTasker extends AbstractAppMaster {
 	static final String url = "https://s.taobao.com/search?sort=sale-desc&style=list&cat=50002634&s=0";
 	static final String table = "t_proxy_verfiy";
 	static final String verify_test_value = "100";

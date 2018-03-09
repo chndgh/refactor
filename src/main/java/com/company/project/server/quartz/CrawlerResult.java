@@ -1,8 +1,8 @@
 package com.company.project.server.quartz;
 
 
-import com.company.project.parse.selector.Html;
-import com.company.project.parse.selector.Json;
+import com.company.project.utils.parse.selector.Html;
+import com.company.project.utils.parse.selector.Json;
 import com.company.project.server.CookieManager.CrawlerCookie;
 
 import java.util.ArrayList;

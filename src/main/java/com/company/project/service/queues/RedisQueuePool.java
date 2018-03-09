@@ -1,5 +1,4 @@
-package com.company.project.server.queues;
-
+package com.company.project.service.queues;
 
 import com.company.project.client.util.UumaiProperties;
 import com.company.project.client.util.io.SerializeUtil;

@@ -1,10 +1,11 @@
 package com.company.project.server.CookieManager.selenium;
 
-import com.uumai.server.CookieManager.CookieHelper;
-import com.uumai.server.CookieManager.CrawlerCookie;
-import com.uumai.server.download.CrawlerProxy;
-import com.uumai.server.download.Download;
-import com.uumai.server.download.selenium.WebDriverFactory;
+
+import com.company.project.server.CookieManager.CookieHelper;
+import com.company.project.server.CookieManager.CrawlerCookie;
+import com.company.project.server.download.CrawlerProxy;
+import com.company.project.server.download.Download;
+import com.company.project.server.download.selenium.WebDriverFactory;
 import org.openqa.selenium.WebDriver;
 
 import java.util.ArrayList;

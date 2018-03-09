@@ -1,9 +1,9 @@
 package com.company.project.service.proxy;
 
-import com.company.project.client.AbstractAppMaster;
 import com.company.project.client.util.UumaiTime;
 import com.company.project.dao.TProxyMapper;
 import com.company.project.server.quartz.QuartzCrawlerTasker;
+import com.company.project.service.AbstractAppMaster;
 import com.company.project.service.impl.TSystemlogServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
